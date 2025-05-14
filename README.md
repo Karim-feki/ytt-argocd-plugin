@@ -9,7 +9,7 @@ ArgoCD previously supported two methods for plugin deployment:
 1. **ConfigMap-based**
 2. **Sidecar-based**
 
-As of ArgoCD version `<2.4>`, the ConfigMap-based method has been **deprecated**.  
+As of ArgoCD version `2.4`, the ConfigMap-based method has been **deprecated**.  
 However, the official `ytt` documentation still references the deprecated ConfigMap method, which makes it obsolete for newer versions.
 
 This repository offers a streamlined, updated approach to deploying the `ytt` plugin using the sidecar method — including a one-click automation script.
